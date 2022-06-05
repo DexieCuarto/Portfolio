@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+}
+
+.bg {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hf {
+    font-size: 17px;
+    padding: 15px 30px;
+    color: black;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+    margin-right: 0px;
+}
+
+.nav li {
+    padding: 15px 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.nav a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .dv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+    }
+}
+
+.hf2 {
+    margin-top: 150px;
+    margin-left: 50px;
+    color: black;
+    font-size: 50px;
+}
+
+.pf {
+    margin-left: 50px;
+    color: black;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .hf2 {
+        font-size: 30px;
+    }
+
+    .pf {
+        font-size: 17px;
+    }
+}
+
+/*  */
+
+.bg2 {
+    background-image: url('about.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg2 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .bg2 {
+        height: 600px;
+    }
+}
+
+.hf3 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.dv2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv3 {
+    margin-left: 15px;
+    width: 605px;
+    height: 600px;
+}
+
+.img {
+    margin-top: 10px;
+    margin-left: 75px;
+    width: 450px;
+    height: 550px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.img:hover {
+    opacity: 0.5;
+}
+
+.hf4 {
+    margin-top: 150px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.pf2 {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .dv2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv3 {
+        height: 560px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dv3 {
+        margin-left: 0px;
+        width: 450px;
+        height: 510px;
+    }
+    
+    .img {
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 400px;
+        height: 500px;
+    }
+    
+    .hf4 {
+        margin-top: 150px;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+    }
+    
+    .pf2 {
+        text-align: center;
+        color: black;
+        font-size: 17px;
+    }
+}
+
+/*  */
+
+.bg3 {
+    background-image: url('portfolio.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg3 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .bg3 {
+        height: 600px;
+    }
+}
+
+.dv4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv5 {
+    margin-left: 15px;
+    width: 605px;
+    height: 650px;
+}
+
+.hf5 {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.img2 {
+    margin-left: 70px;
+    width: 450px;
+    height: 550px;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.img2:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .dv4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .dv5 {
+        margin-left: 0px;
+        width: 450px;
+        height: 650px;
+    }
+    
+    .hf5 {
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+        font-size: 30px;
+    }
+    
+    .img2 {
+        margin-left: 25px;
+        width: 400px;
+        height: 500px;
+        cursor: pointer;
+        opacity: 1;
+        transition: all 0.3s ease 0s;
+    }
+}
+
+/*  */
+
+.bg4 {
+    background-image: url('skills.jpg');
+    max-height: 200%;
+    height: 400px;
+}
+
+.bg4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .bg4 {
+        height: 600px;
+    }
+}
+
+.dv6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv7 {
+    margin-left: 15px;
+    width: 605px;
+    height: 250px;
+}
+
+.hf6 {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.pf3 {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .dv6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv7 {
+        margin-left: 0px;
+        width: 450px;
+    }
+}
